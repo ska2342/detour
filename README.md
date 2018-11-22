@@ -22,7 +22,9 @@ Or via use-package:
       ([(control \,)] . detour-back))
 
 Internally, a register is used to store the position. If you
-manually set this register, these functions will not work.
+manually set this register, these functions will not work. Should you
+want to change this register (for example if it conflicts with another
+package), customize the variable `detour-register`.
 
 # License
 
